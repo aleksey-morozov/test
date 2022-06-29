@@ -1,8 +1,7 @@
-console.log('test');
+class Test {
+    name = 'Alex';
 
-
-
-console.log('test2');
-
-
-CSSRuleList
+    getName() {
+        return this.name;
+    }
+}
